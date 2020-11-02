@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
       scrollOffset: 128,
     });
   }
+
+  window.loadComment && loadComment();
 });
 
 // update utterances theme
